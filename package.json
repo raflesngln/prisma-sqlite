@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "insert": "npx ts-node my-query/createScript.ts",
+    "insert": "npx ts-node my-query/users/Create.ts && npx ts-node my-query/posts/Create.ts ",
     "query": "npx ts-node my-query/queryScript.ts",
-    "relation": "npx ts-node my-query/relationScript.ts"
+    "relation": "npx ts-node my-query/relationScript.ts",
+    "open_ui": "npx prisma studio"
   },
   "keywords": [],
   "author": "",
